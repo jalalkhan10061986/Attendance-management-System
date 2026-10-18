@@ -1,7 +1,7 @@
 Attendly – Attendance Management System
 A simple, responsive, browser-based attendance management system for schools and training centers, built using HTML5, CSS3, Vanilla JavaScript, and JSON — without any frameworks, external libraries, or backend server.
 
-🔗 Live Demo: Attendly – Attendance Management System
+🔗 Live Demo: [Attendly – Attendance Management System](https://jalalkhan10061986.github.io/Attendance-management-System/)
 
 📌 Overview
 Attendly is a web-based application designed to simplify student attendance management. It provides an intuitive dashboard where administrators and teachers can manage students and classes, record daily attendance, review attendance history, and generate monthly reports.
