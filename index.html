@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Attendly – Attendance System</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- LOGIN -->
+<main id="login" class="login" hidden>
+  <form id="lf" class="card">
+    <div class="logo">Attendly</div>
+    <p class="muted">Sign in to manage attendance</p>
+    <label>Username<input id="lu" autocomplete="username" required></label>
+    <label>Password<input id="lp" type="password" autocomplete="current-password" required></label>
+    <p class="err" id="le" role="alert"></p>
+    <button class="btn">Sign in</button>
+    <p class="muted small">Demo: admin / admin123</p>
+  </form>
+</main>
+
+<!-- APP -->
+<div id="app" hidden>
+  <aside id="side">
+    <button class="burger" id="burger" aria-label="Toggle menu">☰</button>
+    <nav id="nav" aria-label="Main"></nav>
+  </aside>
+  <div class="main">
+    <header>
+      <button class="burger m" id="burger2" aria-label="Open menu">☰</button>
+      <div class="logo">Attendly</div>
+      <input id="gs" type="search" placeholder="Search students…" aria-label="Search students">
+      <span class="sp"></span>
+      <button class="ic" id="theme" aria-label="Toggle light/dark mode">🌓</button>
+      <div class="user"><div class="av" id="av"></div><div><b id="un"></b><small id="ur"></small></div></div>
+      <button class="btn gray" id="logout">Logout</button>
+    </header>
+    <section id="view" tabindex="-1"></section>
+  </div>
+</div>
+
+<dialog id="dlg"></dialog>
+<div id="toasts" aria-live="polite"></div>
+<script src="script.js"></script>
+</body>
+</html>
